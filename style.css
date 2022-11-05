@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+
+        height: 100%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        background-color:white;
+        align-items: center;
+}
+
+.container{
+        width: 500px;
+        height:auto;
+        background-color: rgb(235, 124, 124);
+        border-radius: 5px;
+        padding: 2rem 1rem;
+        margin: 20px;
+       
+        
+        
+    }
+    
+ .testclass{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+      
+        
+ }
+      header{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+       
+        color: rgb(238, 235, 235);
+      }
+      p{
+        margin-top: 30px;
+        
+        text-align: center;
+        font-size: 16px;
+      }
+      .progamming-language{
+       font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        margin-top: 50px;
+
+
+      }
+      .progamming-language-add{
+        margin-top: 20px;
+        font-family: 'Lato', sans-serif;
+        
+        
+
+      }
+     
+      .add{
+        background-color: rgb(20, 90, 20);
+        text-align: center;
+        border: 0px;
+        box-sizing:border-box ;
+        padding: 9px;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        border-radius: 10px;
+
+
+      }
+     #item{
+      border: 0;
+      outline: 0;
+      width:90%;
+      padding: 5px;
+      font-size: 16px;
+      border-radius: 10px;
+      font-family: 'Lato', sans-serif;
+      box-shadow: 0px 0px 2px rgb(243, 213, 213);
+     }
+     #progamming-language-list{
+       margin-top: 60px;
+
+    }
+      
+     
+      ul{
+        list-style-type: none;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        margin-top: 20px;
+       
+      }
+      li{
+        margin-right: 110px;
+        padding-bottom: 10px;
+      }
+      .title{
+     
+      background-color: rgb(223, 237, 237);
+      margin-top: 30px;
+      padding: 10px;
+     text-align: center;
+      font-size: 14px;
+      border-radius: 10px;
+      font-family: 'Lato', sans-serif;
+      
+      
+      
+      
+      
+      
+
+      }
+      .remove{
+      border: 0;
+      outline: 0;
+      position:absolute;
+      padding: 7px;
+      right:500px;
+     font-size: 14px;
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+      box-sizing:border-box ;
+      box-shadow: 0px 0px 2px grays;
+      font-family: 'Lato', sans-serif;
+      background-color: rgb(80, 4, 4);
+        
+      }
+      .edit{
+        border: 0;
+        outline: 0;
+        color: white;
+        box-shadow: 0px 0px 2px grays;
+        position: absolute;
+        right:490px;
+        padding: 7px;
+        margin-right: 60px;
+        text-align: center;
+        font-size: 14px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: rgb(1, 65, 161);
+        font-family: 'Lato', sans-serif;
+}
